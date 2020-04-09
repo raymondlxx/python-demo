@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"skip",
+				"skipReport"
+			],
+			[
+				"dest_file",
+				"dest_file_path"
+			],
+			[
+				"dest_",
+				"dest_file_md5"
+			],
+			[
+				"file_categ",
+				"file_category_path"
+			],
+			[
+				"curr",
+				"current_path"
+			],
+			[
+				"folder",
+				"folder_path"
+			],
+			[
+				"cu",
+				"current_file_path"
+			],
+			[
+				"fa",
+				"face_locations"
+			],
+			[
+				"face",
+				"face_recognition"
+			],
+			[
+				"toLo",
+				"toLocaleTimeString\t(): string Date"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 299.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"j",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"JSON",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"sql\t",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"jon",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"set syntax: javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"format",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"set syntax: js",
+				"Set Syntax: JSON"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"intall pcakge",
+				"Package Control: Install Package"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"installPackage",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 382.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/leolee/works/python-demo"
+	],
+	"file_history":
+	[
+		"/Users/leolee/works/python-demo/progress_bar.py",
+		"/Users/leolee/works/python-demo/merge_two_folder.py",
+		"/Users/leolee/works/python-demo/file_categorizer.py",
+		"/Users/leolee/photo/114D7000/photo/20200409/file_categorizer.py",
+		"/Users/leolee/works/python-demo/md5.py",
+		"/Users/leolee/works/python-demo/test.txt",
+		"/Applications/IntelliJ IDEA.app/Contents/bin/idea.vmoptions",
+		"/Users/leolee/software/filebeat-6.5.4-darwin-x86_64/README.md",
+		"/Users/leolee/Downloads/fs-app-2020-03-25.log",
+		"/Users/leolee/study/opensource/fxiaoke/paas/fs-paas-org/pom.xml",
+		"/Users/leolee/software/music/MusicLab/MusicLab_RealGuitar_5.0.2/Crack/RealGuitar.license",
+		"/Volumes/Install/.hidden/Install.command",
+		"/Volumes/Install/.hidden/kiH7h1GyQvqhVR8",
+		"/Users/leolee/Downloads/092432-worker.log",
+		"/Users/leolee/Downloads/create-trigger.sql",
+		"/Users/leolee/Downloads/092432.log",
+		"/Users/leolee/Study/opensource/AudioKit/README.md",
+		"/Users/leolee/Downloads/sch_71557.tsv",
+		"/Users/leolee/Downloads/public.tsv",
+		"/Users/leolee/Downloads/create.sql",
+		"/Volumes/EFI/EFI/CLOVER/config.plist",
+		"/Volumes/ESP/EFI/CLOVER/config.plist",
+		"/Users/leolee/Documents/upsert.sql",
+		"/Users/leolee/Documents/read_codes.txt",
+		"/Users/leolee/Downloads/error_tenant.txt",
+		"/private/etc/hosts",
+		"/Users/leolee/Downloads/0.add-column-out-data-auth-code-online-v2.sql",
+		"/Users/leolee/Study/opensource/fxiaoke/paas/fs-paas-data-auth/service/src/main/java/com/fxiaoke/paas/data/auth/service/service/impl/DataRightsServiceImpl.java",
+		"/Users/leolee/Downloads/affectedNum (1).txt",
+		"/Users/leolee/fxiaoke/docs/invalid-tenants/invalid-tenants-168507.txt",
+		"/Users/leolee/fxiaoke/docs/sql/dt_auth/drop-dt-auth-id-from-112.sql",
+		"/Users/leolee/Developer/fe/booking/src/App.vue",
+		"/Users/leolee/Developer/fe/booking/src/router.js",
+		"/Users/leolee/Developer/fe/booking/src/views/Test.vue",
+		"/Users/leolee/Developer/python/python-demo/helloworld.py",
+		"/Users/leolee/Developer/fe/gojs-demo/index.html",
+		"/Users/leolee/Developer/fe/gojs-demo/index.js",
+		"/Users/leolee/Developer/fe/vue-demo/app7.js",
+		"/Users/leolee/Developer/fe/vue-demo/index.html",
+		"/Users/leolee/Developer/fe/vue-demo/app7.html",
+		"/Users/leolee/Developer/fe/vue-demo/index.js",
+		"/Users/leolee/Desktop/2018-12-27_010404.txt",
+		"/Users/leolee/fxiaoke/sql/add_data_dept_leaders_for_all_20181221.sql",
+		"/Users/leolee/Developer/fe/vue-demo/untitled.sql",
+		"/Users/leolee/fxiaoke/ssh-login/go2.sh",
+		"/usr/local/apache-maven-3.5.4/conf/settings.xml",
+		"/Users/leolee/fxiaoke/sql/2018-11-06 22-55-36",
+		"/Users/leolee/fxiaoke/ssh-login/config.ini",
+		"/usr/local/maven/maven3.5.0/conf/settings.xml",
+		"/Users/leolee/Downloads/nocode.py",
+		"/Users/leolee/Study/ios/TuningFork/Podfile"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 469.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 159.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 283.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "python-demo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
