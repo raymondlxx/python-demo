@@ -103,9 +103,10 @@ def moveAndMerge(source,dest):
 					#rename
 					dest_file_path = os.path.join(dest_folder_path,dest_file_md5+""+file_extension)
 					#print("rename to:"+dest_file_path)
-			#else:
+					shutil.move(current_file_path,dest_file_path)
+			else:
 				#print(current_file_path+" to:"+dest_file_path)
-				#shutil.move(current_file_path,dest_file_path)
+				shutil.move(current_file_path,dest_file_path)
 
 			printProgress(">>>>>>totalFile:"+str(totalFile)+", unsupported"+str(unsupported)+", renamed:"+str(renamed)+", skiped:"+str(skiped))
 
