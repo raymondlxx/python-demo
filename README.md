@@ -1,7 +1,7 @@
 # python-demo
 
 
-what does file_categorizer do:
+## what does file_categorizer do:
 1. loop all the files in the current folder
 2. if the current file's extension is not .MOV, skip(continue)
 3. get the create time from the current file, and format it as yyyyMMdd as createTimeFolder.
@@ -9,7 +9,7 @@ what does file_categorizer do:
 5. move the current file into the new folder:createTimeFolder
 
 
-what does merge_two_folder.py do:
+## what does merge_two_folder.py do:
 1.loop all the files in the source folder
 2.skip those files whose extension is unsupported
 3.if the file exists in the destination folder/{file_type}/modified_date/filename, check whether they have the same md5sum.
