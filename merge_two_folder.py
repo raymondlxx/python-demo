@@ -2,7 +2,7 @@
 #if the file exists in the destination folder, and they have the same md5sum. skip;
 #otherwise, rename the source file to the md5sum.
 
-import os
+import os,sys
 import hashlib
 import os,shutil,time
 from datetime import date
@@ -38,6 +38,11 @@ def getFileType(ext):
 		return "video"
 	return ext
 
+def printProgress(msg):
+	sys.stdout.write('{0}\r'.format(msg))
+	sys.stdout.flush()
+
+
 def moveAndMerge(source,dest):
 	totalFile = 0
 	unsupported={}
@@ -47,15 +52,10 @@ def moveAndMerge(source,dest):
 	destExists={}
 
 	for root,dirs,files in os.walk(source):
-		# print("root:"+str(root))
-		# print("dirs:"+str(dirs))
-		# print("files:"+str(files))
-		# print("=======")
+
 		for file in files:
 			totalFile+=1
-			# print(root)
-			# print(file)
-			# print("-----")
+
 			current_file_path = os.path.join(root,file)
 			source_file_md5 = md5(current_file_path)
 
@@ -75,7 +75,7 @@ def moveAndMerge(source,dest):
 			file_category = getFileType(file_extension)
 			file_category_path = os.path.join(dest,file_category)
 			if(os.path.exists(file_category_path) is False):
-				print("create folder:"+file_category_path)
+				#print("create folder:"+file_category_path)
 				os.mkdir(file_category_path)
 
 			#yyyyMMdd
@@ -83,14 +83,11 @@ def moveAndMerge(source,dest):
 
 			dest_folder_path = os.path.join(file_category_path,modifyTimeFolderName)
 			if(os.path.exists(dest_folder_path) is False):
-				print("create folder:"+dest_folder_path)
+				#print("create folder:"+dest_folder_path)
 				os.mkdir(dest_folder_path)
 			
 			dest_file_path = os.path.join(dest_folder_path,file)
 			if(os.path.exists(dest_file_path) is True):
-				
-				
-				
 				#print("dest file exists:"+dest_file_path)
 				dest_file_md5 = md5(dest_file_path)
 				if(source_file_md5 == dest_file_md5):
@@ -98,19 +95,19 @@ def moveAndMerge(source,dest):
 					if(file_extension not in skiped.keys()):
 						skiped[file_extension]=0
 					skiped[file_extension]+=1
-					print("dest_file_md5:"+dest_file_md5)
+					#print("dest_file_md5:"+dest_file_md5)
 				else:
 					if(file_extension not in renamed.keys()):
 						renamed[file_extension]=0
 					renamed[file_extension]+=1
 					#rename
 					dest_file_path = os.path.join(dest_folder_path,dest_file_md5+""+file_extension)
-					print("rename to:"+dest_file_path)
-			else:
-				print(current_file_path+" to:"+dest_file_path)
+					#print("rename to:"+dest_file_path)
+			#else:
+				#print(current_file_path+" to:"+dest_file_path)
 				#shutil.move(current_file_path,dest_file_path)
 
-			print(">>>>>>totalFile:"+str(totalFile)+", unsupported"+str(unsupported)+", renamed:"+str(renamed)+", skiped:"+str(skiped))
+			printProgress(">>>>>>totalFile:"+str(totalFile)+", unsupported"+str(unsupported)+", renamed:"+str(renamed)+", skiped:"+str(skiped))
 
 
 
