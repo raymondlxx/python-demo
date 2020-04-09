@@ -2,6 +2,7 @@ from __future__ import with_statement
 import os,shutil,time
 from datetime import date
 
+supported_extension = [".MOV",".JPG",".txt"]
 #
 def getFolderNameFromFileModifyTime(path):
 	mtime = os.path.getmtime(current_file_path)
@@ -12,6 +13,8 @@ def getFolderNameFromFileCreateTime(path):
 	current_file_date = date.fromtimestamp(mtime)
 	return current_file_date.strftime("%Y%m%d")
 
+def isExtensionSupported(ext):
+	return ext in supported_extension
 
 # print(os.path.getmtime("test.txt"))
 # print(os.path.normpath("."))
@@ -27,7 +30,7 @@ for root, dirs, files in os.walk(current_path):
 
 		filename, file_extension = os.path.splitext(current_file_path)
 		
-		if(file_extension != ".MOV"):
+		if(isExtensionSupported(file_extension) is False):
 			continue
 
 		folder_name = getFolderNameFromFileCreateTime(current_file_path)
